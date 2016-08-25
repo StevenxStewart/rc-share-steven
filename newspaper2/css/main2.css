@@ -1,0 +1,96 @@
+-/* Box Model Hack */
+* {
+   -moz-box-sizing: border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */…border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+   box-sizing: border-box; /* IE */
+}
+.wrapper{
+  background-color: white;
+}
+.header{
+  align-items: center;
+}
+.header p {
+  text-align: center;
+
+}
+.threePs p{
+  width:33.3333%;
+  float:left;
+}
+.left {
+  width:15%;
+  float:left;
+  padding: 3%;
+  border-right:2px solid black;
+}
+.left h2 {
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.middle {
+  width:50%;
+  padding: 3%;
+  float:left;
+  border: 0px, 2px, 0px, 2px;
+}
+.right {
+  width:15%;
+  padding: 3%;
+  float:left;
+  border-left:2px solid black;
+}
+img {
+  width:100%;
+}
+
+#barcode {
+  width:80%;
+  padding:3%;
+}
+#boat {
+  width:90%;
+  padding:5%;
+}
+#books {
+  width:80%;
+  padding:3%;
+}
+#celtics{
+  width:80%;
+  padding:3%;
+}
+#cloudy {
+  width:80%;
+  padding:3%;
+}
+#man {
+  width:33%;
+  padding:3%;
+  text-align: right;
+}
+#rudolph_spider_edwards{
+  width:100%;
+}
+
+.block {
+  border-top: hidden;
+}
+.block2 {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  clear:both;
+}
+.block3 {
+  border-bottom: 2px solid black;
+}
+.block4 {
+  clear:both;
+}
+.block5 {
+  border-bottom: 2px solid black;
+}
+li {
+  text-decoration: none;
+}
