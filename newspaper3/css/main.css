@@ -1,0 +1,70 @@
+/* Box Model Hack */
+* {
+   -moz-box-sizing: border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */…border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+   box-sizing: border-box; /* IE */
+}
+section{
+  border: 1px solid black;
+  height:400px;
+  font-family: 'Playfair Display', serif;
+}
+
+header{
+  width: 100%;
+  text-align: center;
+}
+header h2{
+  font-size: 120px;
+}
+header h3{
+  font-size: 35px;
+}
+h2 {
+  font-size: 60px;
+}
+.first{
+  width: 100%;
+  height: 400px;
+  background: url("../img/players.jpg") no-repeat;
+  background-size: cover;
+}
+.second{
+  width:30%;
+  float:left;
+
+}
+.third{
+  width:30%;
+  float:left;
+}
+.third p{
+  padding:0%;
+}
+.four{
+  width:40%;
+  float:left;
+  text-size: 100px;
+  text-transform: full-width;
+}
+.four h3{
+  text-align:center;
+  padding: 5%;
+}
+.four_left{
+  float:left;
+  height:200px;
+  width:50%;
+}
+.four_right{
+  float:left;
+  height:200px;
+  width:50%;
+
+}
+#protest{
+  width:50%;
+  float:left;
+  padding:3%;
+}
