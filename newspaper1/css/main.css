@@ -7,27 +7,21 @@
 }
 .wrapper{
   background-color: white;
+  border-top: hidden;
 }
 .header{
   align-items: center;
+  width:100%;
 }
 .header p {
   text-align: center;
+}
 
-}
-.threePs p{
-  width:33.3333%;
-  float:left;
-}
 .left {
   width:15%;
   float:left;
   padding: 3%;
   border-right:2px solid black;
-}
-.left h2 {
-  font-family: sans-serif;
-  text-decoration: underline;
 }
 .middle {
   width:50%;
@@ -45,53 +39,76 @@ img {
   width:100%;
 }
 
-#barcode {
-  width:80%;
-  padding:3%;
+#bostonglobe{
+  width:100%;
+  pading: 0;
+  margin: 0;
 }
 #boat {
   width:90%;
   padding:5%;
 }
-#books {
+#players {
   width:80%;
-  padding:3%;
+  padding:8%;
 }
-#celtics{
-  width:80%;
-  padding:3%;
+#protest{
+  width:25%;
+  padding:1%;
+  float:left;
 }
-#cloudy {
-  width:80%;
-  padding:3%;
+h3 {
+  text-align:center;
 }
-#man {
-  width:33%;
-  padding:3%;
-  text-align: right;
+.threePs p{
+  width:33.3333%;
+  float:left;
 }
-#rudolph_spider_edwards{
+.threePs h3{
+  text-align: center;
+}
+.block1 {
   width:100%;
-}
-
-.block {
   border-top: hidden;
+  border-right: 2px solid black;
+  float: left;
+  background: url("../img/players.jpg")
+
+}
+.block1 h2 {
+  text-align: center;
+  font-size: 50px;
 }
 .block2 {
+  border-top: 2px solid black;
+  float:left;
+  width:100%;
+  border-bottom: 2px solid black;
+}
+.t3 h3 {
+  text-align: center;
+  word-spacing: 15px;
+}
+.block2.5 {
   border-bottom: 2px solid black;
   border-top: 2px solid black;
-  clear:both;
+  float:left;
+  border-right:2px solid black;
+  width:50%;
 }
 .block3 {
   border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  float:left;
+  clear:both;
+  width:50%;
 }
 .block4 {
-  clear:both;
+  border-right: 2px solid black;
+  float:right;
+  overflow: hidden;
+  width:50%;
 }
 .block5 {
   border-bottom: 2px solid black;
-  overflow:hidden;
-}
-li {
-  text-decoration: none;
 }
