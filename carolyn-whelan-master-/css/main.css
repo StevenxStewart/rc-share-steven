@@ -1,3 +1,4 @@
+/* Main base styles */
 *{
   font-family: verdana;
   margin: 0;
@@ -6,27 +7,57 @@
 body{
   background: #eee;
   color: #333;
+  display:flex;
+  flex-direction: row;
 }
-
+div{
+  display:flex;
+  flex-direction: row;
+}
+header{
+  width:40%;
+  overflow:hidden;
+}
 .wrapper{
-  display: flex;
-  flex-flow: wrap;
-  /*width: 100%;*/
+  width: 100%;
   max-width: 960px;
-  /*margin: 0 auto;*/
+  margin: 0 auto;
 }
-
-/* menu base styles */
-
-nav{
-  height:100px;
-  width:20%;
-}
-/* grid vs flex base styles */
 
 .main{
   min-height: 100px;
-  width: 70%;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  background: #
 }
+/* Nav base styles */
+
+.nav{
+  min-height: 100px;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  background: #fff;
+}
+ul{
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+  font: 14px/24px;
+}
+/* Right Side base styles */
+article{
+  background: #fff;
+  margin: 10px;
+}
+/* Main base styles */
+
 
 @media screen and (min-width: 768px){
