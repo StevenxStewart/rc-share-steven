@@ -103,6 +103,12 @@ nav{
   width: 100%;
   border-bottom: 2%;
 }
+.fa{
+  font-size: 1em;
+}
+nav img{
+  width:10%;
+}
 ul{
   display: flex;
   flex-direction:row;
@@ -111,7 +117,17 @@ li{
   list-style-type: none;
   border: 0 1.5% solid black;
 }
+/*--    Nav   -   Search Bar   --*/
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
 /*-- main --*/
 main{
   color: #fff;
@@ -136,8 +152,47 @@ main section{
   background: #f6c7b1;
 }
 
+/*          Sections 1-4            */
+
+.one{
+  width:100%;
+}
+.two{
+  width:100%;
+}
+.do_you_know_steven{
+  background: #808080;
+  width:100%;
+  padding: 1.5%;
+  margin-bottom: 2.5%;
+}
+
+.intro{
+  background: #808080;
+  width: 45%;
+  padding: 1.5%;
+}
+.three{
+  width:100%;
+}
+.photos{
+  background: #808080;
+  width:45%;
+  padding: 1.5%
+  display: flex;
+  flex-flow: row wrap;
+}
+.photos img{
+  width: 28.333%;/*1/6 - 6 photos*/
+  padding: 1.5%
+
+}
+.four{
+  width:45%;
+}
+
 /*   hero     */
-.hero{
+.hero_pic{
   width:100%;
   max-height:350px;
   overflow: hidden;
@@ -153,7 +208,11 @@ ul{
   flex-flow:row;
   justify-content: space-around;
 }
-.hero li{
+.hero{
+  width: 100%;
+  background: #808080;
+}
+.hero_list li{
   border: 1px solid black;
 }
 
@@ -174,35 +233,13 @@ aside{
   height:100vh;
 }
 
-.do_you_know_steven{
-  background: #ccc;
-  width:100%;
-  padding: 1.5%;
-  margin-bottom: 2.5%;
-}
 
-.intro{
-  background: #ccc;
-  width: 45%;
-  padding: 1.5%;
-}
 .commenting{
-  background: #ccc;
+  background: #808080;
   width: 45%;
   padding: 1.5%;
 }
-.photos{
-  background: #ccc;
-  width:50%;
-  padding: 1.5%
-  display: flex;
-  flex-flow: row wrap;
-}
-.photos img{
-  width: 28.333%;/*1/6 - 6 photos*/
-  padding: 1.5%
 
-}
 
 /* ==========================================================================
    Helper classes
