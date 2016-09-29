@@ -1,7 +1,7 @@
 /* Main base styles */
 *{
-  font-family: verdana;
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 body{
@@ -22,6 +22,7 @@ header{
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+  background: #f6f7f8;
 }
 
 .main{
@@ -33,6 +34,7 @@ header{
   margin: 10px;
   background: #
 }
+
 /* Nav base styles */
 
 .nav{
@@ -45,12 +47,15 @@ header{
 ul{
   display:flex;
   flex-direction:column;
-  width: 100%;
 }
 li{
   text-decoration: none;
   list-style-type: none;
   font: 14px/24px;
+  margin-bottom: 15px;
+}
+.carolyn{
+  border-bottom: 0.5px solid #87bccb;
 }
 /* Right Side base styles */
 article{
