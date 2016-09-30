@@ -1,7 +1,11 @@
 /* Main base styles */
 *{
-  margin: 0;
+  margin-top: 0;
   font-family: 'Lato', sans-serif;
+}
+
+body, html {
+  margin: 0;
 }
 
 body{
@@ -14,26 +18,33 @@ div{
   display:flex;
   flex-direction: row;
 }
+/* header */
 header{
-  width:40%;
+  width:25%;
+  position:fixed;
+  height: 100vh;
   overflow:hidden;
 }
+/* Main section */
 .wrapper{
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
   background: #f6f7f8;
+  margin: 0 0 0 auto;
 }
-
 .main{
   min-height: 100px;
   width: 100%;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 30px;
   background: #
 }
+.slide{
+  margin-left: 15px;
+}
+
 
 /* Nav base styles */
 
@@ -43,6 +54,7 @@ header{
   display:flex;
   flex-direction: column;
   background: #fff;
+  padding: 30px 0;
 }
 ul{
   display:flex;
@@ -51,18 +63,43 @@ ul{
 li{
   text-decoration: none;
   list-style-type: none;
-  font: 14px/24px;
+  font: 14px/30px;
   margin-bottom: 15px;
 }
 .carolyn{
-  border-bottom: 0.5px solid #87bccb;
+  border-bottom: 2px solid #f6f7f8;
+  width: 85%;
+}
+.dark{
+  font-weight: bolder;
 }
 /* Right Side base styles */
 article{
   background: #fff;
   margin: 10px;
+  padding: 15px;
+}
+.links{
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+/* visited link */
+a{
+  text-decoration: none;
+  color: RGBA(18, 232, 240, 0.94);
 }
 /* Main base styles */
 
 
-@media screen and (min-width: 768px){
+@media (min-width: 320px) and (max-width: 716px){
+
+header{
+  display: none;
+}
+.wrapper{
+  margin: 0 auto;
+}
