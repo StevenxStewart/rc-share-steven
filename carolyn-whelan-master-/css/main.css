@@ -56,11 +56,11 @@ header{
   background: #fff;
   padding: 30px 0;
 }
-ul{
+.nav ul{
   display:flex;
   flex-direction:column;
 }
-li{
+.nav li{
   text-decoration: none;
   list-style-type: none;
   font: 14px/30px;
@@ -72,6 +72,19 @@ li{
 }
 .dark{
   font-weight: bolder;
+}
+/* Nav II - base styles */
+.secondary_nav{
+  background-color: white;
+  font:
+}
+.secondary_nav ul{
+  display: flex;
+  flex-flow: row;
+}
+
+.secondary_nav h2{
+  font: black;
 }
 /* Right Side base styles */
 article{
@@ -90,7 +103,8 @@ article{
 /* visited link */
 a{
   text-decoration: none;
-  color: RGBA(18, 232, 240, 0.94);
+  color: RGBA(19, 127, 195, 0.9);
+  font-weight: 900;
 }
 /* Main base styles */
 

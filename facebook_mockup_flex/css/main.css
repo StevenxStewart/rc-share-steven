@@ -105,14 +105,16 @@ nav{
 }
 .fa{
   font-size: 1em;
+  color: blanchedalmond;
 }
 nav img{
   width:10%;
 }
-ul{
+nav ul{
   display: flex;
   flex-direction:row;
 }
+
 li{
   list-style-type: none;
   border: 0 1.5% solid black;
@@ -127,6 +129,11 @@ li{
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 100%;
+}
+
+.nav_ext{
+  background-color: black;
+  padding: 1px;
 }
 /*-- main --*/
 main{
@@ -157,6 +164,38 @@ main section{
 .one{
   width:100%;
 }
+/*   hero     */
+.hero_pic{
+  width:100%;
+  max-height: 460px;
+  overflow: hidden;
+}
+.hero_pic img{
+  width:100%;
+  overflow: hidden;
+  max-height: 250px;
+}
+
+.hero{
+  width: 100%;
+  background: #808080;
+  display: flex
+  justify-content: space-between;
+}
+.hero_list{
+  background: #808080;
+  width:100%;
+  display:flex;
+  flex-flow:row;
+  justify-content: space-around;
+}
+.hero_list li{
+  border: 1px solid black;
+}
+
+/*          Sections 2-4            */
+
+
 .two{
   width:100%;
 }
@@ -164,21 +203,27 @@ main section{
   background: #808080;
   width:100%;
   padding: 1.5%;
-  margin-bottom: 2.5%;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
+
+.three{
+  width:50%;
+}
 .intro{
   background: #808080;
-  width: 45%;
+  width: 100%;
   padding: 1.5%;
+  margin: 0 0 20px;
 }
-.three{
-  width:100%;
+.four{
+  width:50%;
 }
 .photos{
   background: #808080;
-  width:45%;
-  padding: 1.5%
+  width:100%;
+  padding: 1.5%;
   display: flex;
   flex-flow: row wrap;
 }
@@ -188,43 +233,9 @@ main section{
 .photos img{
   width: 28.333%;/*1/6 - 6 photos*/
   padding: 1.5%
-
-}
-.four{
-  width:45%;
 }
 
-/*   hero     */
-.hero_pic{
-  width:100%;
-  max-height:350px;
-  overflow: hidden;
-}
 
-img{
-  width:100%;
-  overflow: hidden;
-  min-height: 10px;
-}
-ul{
-  display:flex;
-  flex-flow:row;
-  justify-content: space-around;
-}
-.hero{
-  width: 100%;
-  background: #808080;
-  display: flex
-  justify-content: space-between;
-    
-}
-.hero_list{
-  background: #808080;
-  width:100%;
-}
-.hero_list li{
-  border: 1px solid black;
-}
 
 /*-- body baby --*/
 
@@ -232,7 +243,7 @@ ul{
 section{
   background: teal;
   width:70%;
-  min-height: 500px;
+  max-height: 300px;
   height:100%;
 }
 
@@ -242,13 +253,14 @@ aside{
   min-height: 500px;
   height:100vh;
 }
-
-
-.commenting{
-  background: #808080;
-  width: 45%;
-  padding: 1.5%;
+.friendactivity li{
+  box-sizing: border-box;
+  padding: 5px 6px 7px 7px;
+  width: 200px;
+  color: #6a737c;
 }
+
+
 
 
 /* ==========================================================================
