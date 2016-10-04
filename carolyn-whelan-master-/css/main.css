@@ -11,13 +11,8 @@ body, html {
 body{
   background: #eee;
   color: #333;
-  display:flex;
-  flex-direction: row;
 }
-div{
-  display:flex;
-  flex-direction: row;
-}
+
 /* header */
 header{
   width:25%;
@@ -39,7 +34,6 @@ header{
   flex-direction: column;
   flex-wrap: wrap;
   margin: 30px;
-  background: #
 }
 .slide{
   margin-left: 15px;
@@ -59,33 +53,42 @@ header{
 .nav ul{
   display:flex;
   flex-direction:column;
-}
-.nav li{
-  text-decoration: none;
-  list-style-type: none;
   font: 14px/30px;
   margin-bottom: 15px;
+}
+.nav li{
+  list-style-type: none;
 }
 .carolyn{
   border-bottom: 2px solid #f6f7f8;
   width: 85%;
+  list-style-type: none
 }
 .dark{
   font-weight: bolder;
 }
 /* Nav II - base styles */
+
 .secondary_nav{
-  background-color: white;
-  font:
+  background-color: #eee;
+  font: blue;
+  width:100%;
+  padding: 10px;
 }
 .secondary_nav ul{
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
 }
-
 .secondary_nav h2{
   font: black;
 }
+.secondary_nav a{
+  padding: 0 2px;
+}
+.secondary_nav .carolyn{
+  border-bottom: 0;
+}
+
 /* Right Side base styles */
 article{
   background: #fff;
@@ -106,6 +109,23 @@ a{
   color: RGBA(19, 127, 195, 0.9);
   font-weight: 900;
 }
+/* visionaries-unbound sheet */
+.visionaries{
+  margin: 20px auto;
+  width: 60%;
+  background-color: white;
+  border-top: 5px solid;
+  border-top-color: RGBA(19, 127, 195, 0.9);
+}
+.visionaries article{
+  padding: 25px;
+}
+.visionaries .slide{
+  margin: 10px 27px 0;
+  padding: 5px;
+}
+}
+
 /* Main base styles */
 
 
